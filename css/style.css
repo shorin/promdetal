@@ -28,19 +28,68 @@ div{
 /*** cookie div ***/
 
 .bottom__cookie-block {
+	width: 100%;
+	height: 48px;
+	background-color: #ffffff;
 	display: none;
-}
-
-.bottom__cookie-block a.ok {
-}
-
-.bottom__cookie-block a.podr {
+	position: fixed;
+	bottom: 0;
+	z-index: 100000;
+	text-align: center;
+	transform: translateZ(0);
 }
 
 .bottom__cookie-block p {
+	height: 100%;
+	color: #202020;
+	font-family: 'RobotoRegular', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	display: inline-block;
+	line-height: 48px;
 }
 
 .bottom__cookie-block p span {
+	font-family: 'RobotoBold', sans-serif;
+	font-weight: 400;
+}
+
+.bottom__cookie-block .ok {
+	display: inline-block;
+	border-radius: 100px;
+	line-height: 31px;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'RobotoBold', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	width: 80px;
+	height: 31px;
+	background-color: #1565c0;
+	transition: all .2s;
+	margin: 0 31px;
+}
+
+.bottom__cookie-block .ok:hover {
+	transition: all .2s;
+	background-color: #2196f3;
+}
+
+.bottom__cookie-block .podr {
+	display: inline-block;
+	color: #1565c0;
+	font-family: 'RobotoRegular', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	border-bottom: 1px solid #1565c0;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+
+.bottom__cookie-block .podr:hover {
+	transition: all .2s;
+	border-bottom: 1px solid #2196f3;
+	color: #2196f3;
 }
 
 /*** cookie div end ***/
@@ -50,7 +99,8 @@ div{
 }
 
 .container {
-	width: 1170px;
+	width: 100%;
+	max-width: 1170px;
 	margin: 0 auto;
 }
 
@@ -127,32 +177,57 @@ div{
 	display: flex;
 }
 .header-bottom .container .menu-top ul li {
-	dispaly: block;
 	list-style: none;
 }
+
+.header-bottom .container .menu-top ul li.selected {
+	
+}
+
 .header-bottom .container .menu-top ul li a {
-	display: block;
-	padding: 10px;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 10px;
 	text-transform: uppercase;
 	color: #636363;
-	/*font-weight: bold;*/
+	border-bottom: solid 5px #222;
+	height: 90px;
+	font-size: 18px;
+}
+
+.header-bottom .container .menu-top ul li a:hover {
+	border-bottom: solid 5px #fb3f05;
+}
+
+.header-bottom .container .menu-top ul li.selected a {
+	border-bottom: solid 5px #fb3f05;
 }
 
 /*** about ***/
 .about{
 	
 }
+
 .about .bg-top {
-	min-height: 400px;
+	min-height: 470px;
 	background: url(../images/bg-top.jpg) no-repeat top center #fff;
 }
 .about .bg-top .container {
+	padding-left: 10px;
 }
-.bg-top .container .title {
+.about .bg-top .container .title {
+	color: #fff;
+	font-size: 52px;
+	padding-top: 40px;
 }
-.bg-top .container .description {
+.about .bg-top .container .description {
+	color: #fff;
+	font-size: 44px;
+	padding-top: 50px;
 }
+
 .about .container {
+	
 }
 
 .footer{
