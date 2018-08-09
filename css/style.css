@@ -203,6 +203,9 @@ div{
 	border-bottom: solid 5px #fb3f05;
 }
 
+/*** header end ***/
+
+
 /*** about ***/
 .about{
 	
@@ -230,6 +233,21 @@ div{
 	
 }
 
+/*** about end ***/
+
+
+/*** contacts ***/
+
+.contacts .contact-map{
+	height: 450px;
+}
+
+/*** contacts end ***/
+
+
+
+/*** footer ***/
+
 .footer{
 	background: #222;
 }
@@ -241,3 +259,37 @@ div{
 	font-size: 12px;
 }
 
+/*** footer end ***/
+
+
+
+.work {
+}
+.work .bg-top {
+	height: 240px;
+	background: url(../images/bg-top-works.jpg) no-repeat top center #fff;
+	position: relative;
+}
+.work .bg-top .title {
+	width: 330px;
+	height: 70px;
+	color: #fff;
+	background: #fb3f05;
+	text-align: center;
+	position: absolute;
+	font-size: 28px;
+	top: 50%;
+	left: 50%;
+	margin-left: -165px;
+	margin-top: -35px;
+	line-height: 70px;
+	text-transform: uppercase;
+}
+.work .container {
+}
+.work .container .tabs {
+}
+.work .container .tabs .tabs_area {
+}
+.tabs .tabs_area .tab {
+}
