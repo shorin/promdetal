@@ -1,4 +1,34 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	color: #222;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background: #fff;
+}
+
+a{
+	color: #222;
+	text-decoration: none;
+}
+
+div{
+	box-sizing: border-box;
+	/*-moz-box-sizing: border-box;*/
+	/*-webkit-box-sizing: border-box;*/
+	/*-webkit-font-smoothing: antialiased;*/
+}
+
+.clear{
+	clear: both;
+}
+
+/*** cookie div ***/
+
 .bottom__cookie-block {
+	display: none;
 }
 
 .bottom__cookie-block a.ok {
@@ -13,6 +43,8 @@
 .bottom__cookie-block p span {
 }
 
+/*** cookie div end ***/
+
 .header {
 	
 }
@@ -26,29 +58,111 @@
 	display: none;
 }
 
-
-
-.container .header-top {
-	height: 40px;
-	color: #222;
+.section{
+	min-height: 400px;
 }
 
-.container .header-top .info {
+
+/*** header ***/
+
+.header-top {
+	background: #222;
+}
+
+.header-top .container .info {
 	text-align: right;
+	padding: 10px;
 }
 
-.container .header-bottom {
+.header-top .container .info .phone {
+}
+.header-top .container .info .soc {
+}
+.header-top .container .info .email {
 }
 
-.container .header-bottom .logo {
-}
-.container .header-bottom .menu-top {
-}
-.header-bottom .menu-top ul {
-}
-.header-bottom .menu-top ul li {
-}
-.header-bottom .menu-top ul li a {
+.header-bottom{
+	border-bottom: solid 5px #222;
 }
 
+.header-top .container .info a{
+	color: #ccc;
+}
+
+.header-bottom .container{
+	display: flex;
+	position: relative;
+}
+
+.header-bottom .container .logo {
+	width: 390px;
+	height: 60px;
+	background: url(../images/logo.png) no-repeat #fff;
+	background-size: contain;
+	padding-left: 70px;
+	margin: 15px 0;
+	color: #636363;
+	font-size: 20px;
+}
+
+.header-bottom .container .line_white{
+	position: absolute;
+	width: 2000px;
+	height: 10px;
+	left: -1610px;
+	background: #fff;
+	z-index: 1;
+	top: 85px;
+}
+
+.header-bottom .container .logo span{
+	font-size: 34px;
+}
+
+
+.header-bottom .container .menu-top {
+	height: 90px;
+}
+.header-bottom .container .menu-top ul {
+	display: flex;
+}
+.header-bottom .container .menu-top ul li {
+	dispaly: block;
+	list-style: none;
+}
+.header-bottom .container .menu-top ul li a {
+	display: block;
+	padding: 10px;
+	text-transform: uppercase;
+	color: #636363;
+	/*font-weight: bold;*/
+}
+
+/*** about ***/
+.about{
+	
+}
+.about .bg-top {
+	min-height: 400px;
+	background: url(../images/bg-top.jpg) no-repeat top center #fff;
+}
+.about .bg-top .container {
+}
+.bg-top .container .title {
+}
+.bg-top .container .description {
+}
+.about .container {
+}
+
+.footer{
+	background: #222;
+}
+
+.footer .container{
+	padding: 10px;
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
 
