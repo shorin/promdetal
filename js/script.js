@@ -69,6 +69,17 @@ $(document).ready(function(){
 	});
 	
 	
+	// tabs work
+	$('.tabs .tabs-title a').click(function(){
+		$('.tabs .tabs-title a').removeClass('selected');
+		$(this).addClass('selected');
+		var id = $(this).attr('href');
+		$('.tabs .tabs-area .tab').hide();
+		$('.tabs .tabs-area .tab' + id).show();
+		
+		return false;
+	});
+	
 	
 	
 	// yandex map
