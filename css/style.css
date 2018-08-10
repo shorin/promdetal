@@ -213,7 +213,7 @@ div{
 
 /*** about ***/
 .about{
-	
+	margin-bottom: 200px;
 }
 
 .about .bg-top {
@@ -235,7 +235,7 @@ div{
 }
 
 .about .container {
-	
+	position: relative;
 }
 
 .about .container .blocks-area {
@@ -287,8 +287,178 @@ div{
 	padding-left: 90px;
 }
 
+.about .container .company-desc {	
+	display: flex;
+}
+.about .container .company-desc .area-left {
+	width: 550px;
+	border: solid 5px #fb3f05;
+	padding: 20px;
+	margin-right: 80px;
+}
+
+.about .container .company-desc .area-left .title {
+	font-size: 28px;
+	text-transform: uppercase;
+	margin: 10px 0 40px 0;
+}
+.about .container .company-desc .area-left .area-text {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.about .company-desc .area-right .area-icons {
+	width: 540px;
+	border-top: solid 5px #767676;
+	border-bottom: solid 5px #767676;
+	padding: 15px 0 30px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.about .area-right .area-icons .item {
+	background: url(../images/icon-1.png) no-repeat #fff;
+	background-size: contain;
+	padding-left: 110px;
+	height: 84px;
+	width: 250px;
+	text-transform: uppercase;
+	line-height: 20px;
+	padding-top: 20px;
+}
+.about .area-img {
+	width: 734px;
+	height: 251px;
+	background: url(../images/detali.jpg) no-repeat #fff;
+	position: absolute;
+	right: 0;
+	bottom: -120px;
+}
 
 /*** about end ***/
+
+
+/*** iron-casting ***/
+
+.iron-casting {
+	margin-bottom: 80px;
+}
+.iron-casting .container {
+	display: flex;
+	
+}
+.iron-casting .container .img-left {
+	width: 480px;
+	margin-right: 70px;
+}
+
+.iron-casting .container .img-left .ic_img_1{
+	height: 272px;
+}
+
+.iron-casting .container .img-left .ic_img_1 img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.iron-casting .container .img-left .ic_img_2{
+	height: 219px;
+}
+
+.iron-casting .container .img-left .ic_img_2 img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.iron-casting .container .text-right {
+	width: 600px;
+	
+}
+.iron-casting .container .text-right .title {
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.iron-casting .container .text-right .title .min-line{
+	width: 55px;
+	border-bottom: solid 1px #fb3f05;
+	margin-top: 20px;
+}
+.iron-casting .container .text-right .text {
+	font-size: 16px;
+    line-height: 20px
+}
+
+.iron-casting .container .text-right .text span{
+	color: #fb3f05;
+}
+
+
+/*** iron-casting end ***/
+
+
+
+/*** model-tooling ***/
+
+.model-tooling {
+}
+.model-tooling .container {
+	display: flex;
+	margin-bottom: 70px;
+}
+.imodel-tooling .container .img-right {
+	width: 480px;
+}
+
+.model-tooling .container .img-right .mt_img_1{
+	height: 299px;
+}
+
+.model-tooling .container .img-right .mt_img_1 img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.model-tooling .container .img-right .mt_img_2{
+	height: 193px;
+}
+
+.model-tooling .container .img-right .mt_img_2 img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.model-tooling .container .text-left {
+	width: 600px;
+	margin-right: 70px;
+}
+.model-tooling .container .text-left .title {
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.model-tooling .container .text-left .title .min-line{
+	width: 55px;
+	border-bottom: solid 1px #fb3f05;
+	margin-top: 20px;
+}
+.model-tooling .container .text-left .text {
+	font-size: 16px;
+    line-height: 20px
+}
+
+.model-tooling .container .text-left .text span{
+	color: #fb3f05;
+}
+
+.model-tooling .container:last-child{
+	display: block;
+}
+
+/*** model-tooling end ***/
+
+
 
 
 /*** contacts ***/
@@ -388,7 +558,6 @@ div{
 	width: 100%;
 	height: 520px;
 	background: url(../images/contact-img-left.jpg) no-repeat center center;
-	
 }
 .work .contact-form .content-right {
 	width: 100%;
@@ -399,42 +568,3 @@ div{
 /*********************************/
 
 
-
-.about .container .company-desc {	
-	display: flex;
-}
-.about .container .company-desc .area-left {
-	width: 550px;
-	border: solid 5px #fb3f05;
-	padding: 20px;
-	margin-right: 80px;
-}
-
-.about .container .company-desc .area-left .title {
-	font-size: 28px;
-	text-transform: uppercase;
-	margin: 10px 0 40px 0;
-}
-.about .container .company-desc .area-left .area-text {
-	font-size: 16px;
-	line-height: 28px;
-}
-
-.about .company-desc .area-right .area-icons {
-	width: 540px;
-	border-top: solid 5px #767676;
-	border-bottom: solid 5px #767676;
-	padding: 15px 0 30px 0;
-	display: flex;
-	flex-wrap: wrap;
-}
-.about .area-right .area-icons .item {
-	background: url(../images/../images/icon-1.png) no-repeat #fff;
-	background-size: contain;
-	padding-left: 110px;
-	height: 84px;
-	width: 250px;
-	text-transform: uppercase;
-	line-height: 20px;
-	padding-top: 20px;
-}
