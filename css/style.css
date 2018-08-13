@@ -14,6 +14,25 @@ a{
 	text-decoration: none;
 }
 
+a:active, a:focus {
+	outline: none;
+}
+
+input, textarea {
+	outline:none;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+input:active, textarea:active {
+	outline:none;
+}
+:focus {
+	outline:none;
+}
+textarea{
+	resize:none;
+}
+
 div{
 	box-sizing: border-box;
 	/*-moz-box-sizing: border-box;*/
@@ -404,7 +423,7 @@ div{
 }
 .model-tooling .container {
 	display: flex;
-	margin-bottom: 70px;
+	margin-bottom: 100px;
 }
 .imodel-tooling .container .img-right {
 	width: 480px;
@@ -454,6 +473,60 @@ div{
 
 .model-tooling .container:last-child{
 	display: block;
+	margin-bottom: 0;
+}
+
+.model-tooling .container .why-is-worth-title {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 80px;
+	font-size: 30px;
+}
+.model-tooling .container .why-is-worth {
+	display: flex;
+	flex-wrap: wrap;
+}
+.model-tooling .container .why-is-worth .item {
+	width: 390px;
+	height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 130px;
+}
+
+.model-tooling .container .why-is-worth .item .text-right{
+	width: 220px;
+	padding-left: 20px;
+}
+
+.model-tooling .container .why-is-worth .item .img1 {
+	background: url(../images/nut-icon-1.png) no-repeat #fb3f05 center center;
+}
+.model-tooling .container .why-is-worth .item .img2 {
+	background: url(../images/nut-icon-2.png) no-repeat #fb3f05 center center;
+}
+.model-tooling .container .why-is-worth .item .img3 {
+	background: url(../images/nut-icon-3.png) no-repeat #fb3f05 center center;
+}
+.model-tooling .container .why-is-worth .item .img4 {
+	background: url(../images/nut-icon-4.png) no-repeat #fb3f05 center center;
+}
+.model-tooling .container .why-is-worth .item .img5 {
+	background: url(../images/nut-icon-5.png) no-repeat #fb3f05 center center;
+}
+.model-tooling .container .why-is-worth .item .img6 {
+	background: url(../images/nut-icon-6.png) no-repeat #fb3f05 center center;
+}
+
+.model-tooling .container .why-is-worth .item .img1,
+.model-tooling .container .why-is-worth .item .img2,
+.model-tooling .container .why-is-worth .item .img3,
+.model-tooling .container .why-is-worth .item .img4,
+.model-tooling .container .why-is-worth .item .img5,
+.model-tooling .container .why-is-worth .item .img6{
+	min-width: 100px;
+	min-height: 100px;
+	background-size: 80%;
 }
 
 /*** model-tooling end ***/
@@ -493,6 +566,7 @@ div{
 
 .work {
 }
+
 .work .bg-top {
 	height: 240px;
 	background: url(../images/bg-top-works.jpg) no-repeat top center #fff;
@@ -545,8 +619,19 @@ div{
 }
 
 .work .container .show-more-vk {
+	margin: 25px 0 60px 0;
 }
 .work .container .show-more-vk a {
+	width: 420px;
+	display: block;
+	background: #fb3f05;
+	font-size: 24px;
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+	margin: 0 auto;
+	text-transform: uppercase;
+	border-radius: 5px;
 }
 
 
@@ -561,10 +646,54 @@ div{
 }
 .work .contact-form .content-right {
 	width: 100%;
+	padding: 50px 0 0 40px;
 }
 
+.work .contact-form .content-right .container {
+	width: 570px;
+	margin: 0px;
+}
+.work .content-right .container .title {
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.work .content-right .container .desctiption {
+	line-height: 28px;
+}
 
 
 /*********************************/
 
+.content-right .container .form-area {
+	margin-top: 40px;
+}
+.container .form-area form {
+}
+.form-area form input {
+	padding: 10px;
+	border: solid 1px #dddddd;
+	font-size: 16px;
+	width: 250px;
+}
 
+.form-area form input:nth-child(1) {
+	padding: 10px;
+	margin-right: 20px;
+}
+
+.form-area form textarea {
+	padding: 10px;
+	border: solid 1px #dddddd;
+	margin-top: 20px;
+	font-size: 16px;
+	width: 548px;
+	height: 120px;
+}
+
+.form-area form input.button {
+	background: #fb3f05;
+}
+
+.form-area form .desc {
+}
