@@ -146,13 +146,27 @@ div{
 .header-top .container .info {
 	text-align: right;
 	padding: 10px;
+	font-size: 14px;
 }
 
 .header-top .container .info .phone {
+	padding: 5px 20px 4px 25px; 
+	background: url(../images/ico-phone.png) no-repeat left center;
+	background-size: 20px;
 }
 .header-top .container .info .soc {
+	padding: 4px 20px 4px 60px; 
+	background: url(../images/vwt.png) no-repeat left center;
+	background-size: 50px;
 }
 .header-top .container .info .email {
+	padding: 8px 10px 8px 25px; 
+	background: url(../images/ico-mail.png) no-repeat left center;
+	background-size: 17px;
+}
+
+.header-top .container .info a:hover{
+	color: #fff;
 }
 
 .header-bottom{
@@ -670,19 +684,19 @@ div{
 }
 .container .form-area form {
 }
-.form-area form input {
+.container .form-area form input {
 	padding: 10px;
 	border: solid 1px #dddddd;
 	font-size: 16px;
 	width: 250px;
 }
 
-.form-area form input:nth-child(1) {
+.container .form-area form input:nth-child(1) {
 	padding: 10px;
 	margin-right: 20px;
 }
 
-.form-area form textarea {
+.container .form-area form textarea {
 	padding: 10px;
 	border: solid 1px #dddddd;
 	margin-top: 20px;
@@ -691,9 +705,28 @@ div{
 	height: 120px;
 }
 
-.form-area form input.button {
-	background: #fb3f05;
+.container .form-area form .bottom-area{
+	margin-top: 15px;
 }
 
-.form-area form .desc {
+.container .form-area form .bottom-area input.button {
+	float: left;
+	background: #fb3f05;
+	border: none;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	width: 180px;
+	padding: 18px 0px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.container .form-area form .bottom-area span.desc {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.container .form-area form .bottom-area span.desc a{
+	color: #0d5fcf;
 }
