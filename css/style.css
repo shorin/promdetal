@@ -254,26 +254,30 @@ div{
 	background: url(../images/bg-top.jpg) no-repeat top center #fff;
 }
 .about .bg-top .container {
-	padding-left: 10px;
+	
 }
 .about .bg-top .container .title {
 	color: #fff;
 	font-size: 52px;
-	padding-top: 40px;
+	padding-top: 30px;
+	padding-left: 10px;
 }
 .about .bg-top .container .description {
 	color: #fff;
 	font-size: 44px;
-	padding-top: 50px;
+	margin-top: 40px;
+	background: #fb3f05;
+	position: absolute;
+	line-height: 66px;
+	padding: 0 20px;
 }
-
 .about .container {
 	position: relative;
 }
 
 .about .container .blocks-area {
 	display: flex;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 .about .container .blocks-area .item {
 	width: 370px;
@@ -301,23 +305,23 @@ div{
 .about .container .blocks-area .item .item-text {
 	padding: 15px;
 	font-size: 14px;
-	line-height: 18px;
+	line-height: 24px;
 }
 
 .about .container .blocks-area .item .item-title.title-img1 {
-	background: url(../images/001-plan.png) no-repeat #fb3f05;
-	background-size: contain;
-	padding-left: 90px;
+	background: url(../images/001-plan.png) no-repeat 20px 50% #fb3f05;
+	background-size: 70px;
+	padding: 20px 10px 0 120px;
 }
 .about .container .blocks-area .item .item-title.title-img2 {
-	background: url(../images/002-delivery.png) no-repeat #fb3f05;
-	background-size: contain;
-	padding-left: 90px;
+	background: url(../images/002-delivery.png) no-repeat 20px 50% #fb3f05;
+	background-size: 80px;
+	padding: 20px 10px 0 120px;
 }
 .about .container .blocks-area .item .item-title.title-img3 {
-	background: url(../images/003-factory.png) no-repeat #fb3f05;
-	background-size: contain;
-	padding-left: 90px;
+	background: url(../images/003-factory.png) no-repeat 20px 50% #fb3f05;
+	background-size: 70px;
+	padding: 20px 10px 0 100px;
 }
 
 .about .container .company-desc {	
@@ -326,17 +330,18 @@ div{
 .about .container .company-desc .area-left {
 	width: 550px;
 	border: solid 5px #fb3f05;
-	padding: 20px;
+	padding: 20px 30px 80px 20px;
 	margin-right: 80px;
+	height: 580px;
 }
 
 .about .container .company-desc .area-left .title {
 	font-size: 28px;
 	text-transform: uppercase;
-	margin: 10px 0 40px 0;
+	margin: 20px 0 40px 0;
 }
 .about .container .company-desc .area-left .area-text {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 28px;
 }
 
@@ -357,6 +362,8 @@ div{
 	text-transform: uppercase;
 	line-height: 20px;
 	padding-top: 20px;
+	margin-bottom: 40px;
+	font-weight: bold;
 }
 .about .area-img {
 	width: 734px;
@@ -364,7 +371,7 @@ div{
 	background: url(../images/detali.jpg) no-repeat #fff;
 	position: absolute;
 	right: 0;
-	bottom: -120px;
+	bottom: -100px;
 }
 
 /*** about end ***/
@@ -547,36 +554,7 @@ div{
 
 
 
-
-/*** contacts ***/
-
-.contacts .contact-map{
-	height: 450px;
-}
-
-/*** contacts end ***/
-
-
-
-/*** footer ***/
-
-.footer{
-	background: #222;
-}
-
-.footer .container{
-	padding: 10px;
-	color: #eaeaea;
-	text-align: center;
-	font-size: 12px;
-}
-
-/*** footer end ***/
-
-
-
-
-
+/*** works ***/
 
 .work {
 }
@@ -628,7 +606,6 @@ div{
 }
 .tabs .tabs-area .tab {
 	display: none;
-	background: #888;
 	min-height: 400px;
 }
 
@@ -676,27 +653,24 @@ div{
 	line-height: 28px;
 }
 
-
-/*********************************/
-
-.content-right .container .form-area {
+.work .content-right .container .form-area {
 	margin-top: 40px;
 }
-.container .form-area form {
+.work .container .form-area form {
 }
-.container .form-area form input {
+.work .container .form-area form input {
 	padding: 10px;
 	border: solid 1px #dddddd;
 	font-size: 16px;
 	width: 250px;
 }
 
-.container .form-area form input:nth-child(1) {
+.work .container .form-area form input:nth-child(1) {
 	padding: 10px;
 	margin-right: 20px;
 }
 
-.container .form-area form textarea {
+.work .container .form-area form textarea {
 	padding: 10px;
 	border: solid 1px #dddddd;
 	margin-top: 20px;
@@ -705,11 +679,11 @@ div{
 	height: 120px;
 }
 
-.container .form-area form .bottom-area{
+.work .container .form-area form .bottom-area{
 	margin-top: 15px;
 }
 
-.container .form-area form .bottom-area input.button {
+.work .container .form-area form .bottom-area input.button {
 	float: left;
 	background: #fb3f05;
 	border: none;
@@ -722,11 +696,176 @@ div{
 	cursor: pointer;
 }
 
-.container .form-area form .bottom-area span.desc {
+.work .container .form-area form .bottom-area span.desc {
 	font-size: 12px;
 	line-height: 16px;
 }
 
-.container .form-area form .bottom-area span.desc a{
+.work .container .form-area form .bottom-area span.desc a{
 	color: #0d5fcf;
+}
+
+/*** works end ***/
+
+
+
+/*** contacts ***/
+
+.contacts{
+	position: relative;
+}
+
+
+.contacts .contact-map{
+	height: 450px;
+}
+.contacts .contact-map .contact-link-block {
+	position: absolute;
+	background: #fff;
+	width: 400px;
+	height: 280px;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-top: -140px;
+	margin-left: 200px;
+}
+
+.contacts .contact-map .contact-link-block .area{
+	width: 380px;
+	height: 260px;
+	border: solid 1px #eee;
+	margin: 10px;
+	position: relative;
+	padding: 15px;
+	text-align: center;
+}
+
+.contacts .contact-map .contact-link-block .area .close{
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	top: 10px;
+	right: 10px;
+	/*background: #ff0000;*/
+	cursor: pointer;
+	color: #aaa;
+	transform: rotate(45deg)
+}
+
+.contacts .contact-map .contact-link-block .area .close:hover{
+	color: #555;
+}
+
+
+.contacts .contact-map .contact-link-block .area .logo-min {
+	width: 350px;
+	height: 60px;
+	background: url(../images/logo.png) no-repeat #fff;
+	background-size: contain;
+	padding-left: 70px;
+	color: #636363;
+	font-size: 20px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.contacts .contact-map .contact-link-block .area .logo-min span {
+	font-size: 34px;
+}
+
+.contacts .contact-map .contact-link-block .area .info-min{
+	font-size: 22px;
+	line-height: 34px;
+}
+
+.contacts .contact-map .contact-link-block .area .info-min .phone-min {
+}
+
+.contacts .contact-map .contact-link-block .area .info-min .soc-min {
+	background: url(../images/vwt.png) no-repeat left center;
+	background-size: 60px;
+	padding-left: 70px;
+	
+}
+.contacts .contact-map .contact-link-block .area .info-min .email-min {
+}
+.contacts .contact-map .contact-link-block .area .info-min a{
+}
+
+/*** contacts end ***/
+
+
+
+/*** footer ***/
+
+.footer{
+	background: #222;
+}
+
+.footer .container{
+	padding: 10px;
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
+
+/*** footer end ***/
+
+
+
+/*********************************/
+
+
+
+
+
+
+.my-gallery {
+	
+}
+.my-gallery .item {
+	float: left;
+	margin: 3px 6px;
+	overflow: hidden;
+}
+.my-gallery .item:nth-child(1) img {
+	object-fit: cover;
+	width: 280px;
+	height: 280px;
+}
+.my-gallery .item:nth-child(2) img {
+	object-fit: cover;
+	width: 570px;
+	height: 280px;
+}
+.my-gallery .item:nth-child(3) img {
+	object-fit: cover;
+	width: 280px;
+	height: 280px;
+}
+.my-gallery .item:nth-child(4) img {
+	object-fit: cover;
+	width: 570px;
+	height: 570px;
+}
+.my-gallery .item:nth-child(5) img {
+	object-fit: cover;
+	width: 280px;
+	height: 280px;
+}
+.my-gallery .item:nth-child(6) img {
+	object-fit: cover;
+	width: 280px;
+	height: 280px;
+}
+.my-gallery .item:nth-child(7) img {
+	object-fit: cover;
+	width: 280px;
+	height: 280px;
+}
+.my-gallery .item:nth-child(8) img {
+	object-fit: cover;
+	width: 280px;
+	height: 280px;
 }

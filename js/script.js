@@ -80,30 +80,49 @@ $(document).ready(function(){
 		return false;
 	});
 	
+	// my gallery work
+	$('.my-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: '',
+		mainClass: '',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true
+		}
+	});
+	
 	
 	
 	// yandex map
 	function init_map_contacts(){
 		var сontMap = new ymaps.Map('contact-map', {
-			center: [56.962980289473926,40.9475250423278],
+			center: [56.96322809156016,40.95191560614712],
 			zoom: 16,
+			controls: ['zoomControl']
 			//controls: ['zoomControl'],
 		},
 		{
 			suppressMapOpenBlock: true
 		});
 		var placemark = new ymaps.Placemark([56.962980289473926,40.9475250423278],{
-
+			balloonContent: 'г. Иваново, ул. Станкостроителей, 5',
+			iconCaption: 'улица Станкостроителей, 5'
 		},{
-			iconLayout: 'default#image',
-			//iconImageHref: 'images/contact-location.svg',
-			//iconImageSize: [47, 74]
+			preset: 'islands#redIcon',
 		});
 		сontMap.geoObjects.add(placemark);
+		сontMap.behaviors.disable('scrollZoom')
 
-		сontMap.controls.add('zoomControl', { right: 20, top: 120 });
+		//сontMap.controls.add('zoomControl', { right: 20, top: 120 });
 	}
 
 	ymaps.ready(init_map_contacts);
+	
+	//close contact info
+	
+	$('.contacts .contact-map .contact-link-block .area .close').click(function(){
+		$('.contacts .contact-map .contact-link-block').fadeOut();
+	});
 	
 });
