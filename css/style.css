@@ -246,7 +246,7 @@ div{
 
 /*** about ***/
 .about{
-	margin-bottom: 200px;
+	margin-bottom: 130px;
 }
 
 .about .bg-top {
@@ -425,8 +425,8 @@ div{
 	margin-top: 20px;
 }
 .iron-casting .container .text-right .text {
-	font-size: 16px;
-    line-height: 20px
+	font-size: 15px;
+    line-height: 23px
 }
 
 .iron-casting .container .text-right .text span{
@@ -484,8 +484,8 @@ div{
 	margin-top: 20px;
 }
 .model-tooling .container .text-left .text {
-	font-size: 16px;
-    line-height: 20px
+	font-size: 15px;
+    line-height: 23px
 }
 
 .model-tooling .container .text-left .text span{
@@ -518,6 +518,7 @@ div{
 .model-tooling .container .why-is-worth .item .text-right{
 	width: 220px;
 	padding-left: 20px;
+	line-height: 24px;
 }
 
 .model-tooling .container .why-is-worth .item .img1 {
@@ -589,6 +590,7 @@ div{
 .work .container .tabs .tabs-title {
 	text-align: center;
 	margin: 40px 0;
+	font-size: 26px;
 }
 
 .work .tabs .tabs-title a {
@@ -647,10 +649,10 @@ div{
 .work .content-right .container .title {
 	font-size: 30px;
 	text-transform: uppercase;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 .work .content-right .container .desctiption {
-	line-height: 28px;
+	line-height: 26px;
 }
 
 .work .content-right .container .form-area {
@@ -804,7 +806,7 @@ div{
 }
 
 .footer .container{
-	padding: 10px;
+	padding: 20px 0;
 	color: #eaeaea;
 	text-align: center;
 	font-size: 12px;
