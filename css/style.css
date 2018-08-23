@@ -1274,14 +1274,30 @@ div{
 	}
 	.work .contact-form .content-right{
 		padding: 0;
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	.work .content-right .container .title{
 		text-align: center;
 	}
+	.work .content-right .container .desctiption{
+		font-size: 14px;
+	}
+	.work .container .form-area form input{
+		width: 95%;
+	}
+	.work .container .form-area form input:nth-child(1){
+		width: 95%;
+		margin-bottom: 20px;
+	}
+	.work .container .form-area form textarea{
+		width: 95%;
+	}
+	.work .container .form-area form .bottom-area span.desc{
+		font-size: 11px;
+	}
 	.work .contact-form .content-right .container{
-		width: 570px;
+		width: 460px;
 		margin: 0 auto 40px auto;
 	}
 	.contacts .contact-map .contact-link-block{
