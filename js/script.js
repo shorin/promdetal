@@ -121,8 +121,8 @@ $(document).ready(function(){
 	
 	//close contact info
 	
-	$('.contacts .contact-map .contact-link-block .area .close').click(function(){
-		$('.contacts .contact-map .contact-link-block').fadeOut();
+	$('.contacts .contact-link-block .area .close').click(function(){
+		$('.contacts .contact-link-block').fadeOut();
 	});
 	
 });

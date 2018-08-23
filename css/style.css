@@ -133,7 +133,7 @@ div{
 }
 
 .section{
-	min-height: 400px;
+	min-height: 200px;
 }
 
 
@@ -708,122 +708,6 @@ div{
 	color: #0d5fcf;
 }
 
-/*** works end ***/
-
-
-
-/*** contacts ***/
-
-.contacts{
-	position: relative;
-}
-
-
-.contacts .contact-map{
-	min-height: 450px;
-}
-.contacts .contact-map .contact-link-block {
-	position: absolute;
-	background: #fff;
-	width: 400px;
-	height: 280px;
-	z-index: 10;
-	top: 50%;
-	left: 50%;
-	margin-top: -140px;
-	margin-left: 200px;
-}
-
-.contacts .contact-map .contact-link-block .area{
-	width: 380px;
-	height: 260px;
-	border: solid 1px #eee;
-	margin: 10px;
-	position: relative;
-	padding: 15px;
-	text-align: center;
-}
-
-.contacts .contact-map .contact-link-block .area .close{
-	position: absolute;
-	width: 17px;
-	height: 17px;
-	top: 10px;
-	right: 10px;
-	/*background: #ff0000;*/
-	cursor: pointer;
-	color: #aaa;
-	transform: rotate(45deg)
-}
-
-.contacts .contact-map .contact-link-block .area .close:hover{
-	color: #555;
-}
-
-
-.contacts .contact-map .contact-link-block .area .logo-min {
-	width: 350px;
-	height: 60px;
-	background: url(../images/logo.png) no-repeat #fff;
-	background-size: contain;
-	padding-left: 70px;
-	color: #636363;
-	font-size: 20px;
-	margin-bottom: 30px;
-	text-align: left;
-}
-
-.contacts .contact-map .contact-link-block .area .logo-min span {
-	font-size: 34px;
-}
-
-.contacts .contact-map .contact-link-block .area .info-min{
-	font-size: 22px;
-	line-height: 34px;
-}
-
-.contacts .contact-map .contact-link-block .area .info-min .phone-min {
-}
-
-.contacts .contact-map .contact-link-block .area .info-min .soc-min {
-	background: url(../images/vwt.png) no-repeat left center;
-	background-size: 60px;
-	padding-left: 70px;
-	
-}
-.contacts .contact-map .contact-link-block .area .info-min .email-min {
-}
-.contacts .contact-map .contact-link-block .area .info-min a{
-}
-
-/*** contacts end ***/
-
-
-
-/*** footer ***/
-
-.footer{
-	background: #222;
-}
-
-.footer .container{
-	padding: 20px 0;
-	color: #eaeaea;
-	text-align: center;
-	font-size: 12px;
-}
-
-/*** footer end ***/
-
-
-
-/*********************************/
-
-
-
-
-
-
 .my-gallery {
 	
 }
@@ -872,6 +756,118 @@ div{
 	width: 280px;
 	height: 280px;
 }
+
+/*** works end ***/
+
+
+
+/*** contacts ***/
+
+.contacts{
+	position: relative;
+}
+
+
+.contacts .contact-map{
+	height: 450px;
+}
+.contacts .contact-link-block {
+	position: absolute;
+	background: #fff;
+	width: 400px;
+	height: 280px;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-top: -140px;
+	margin-left: 200px;
+}
+
+.contacts .contact-link-block .area{
+	width: 380px;
+	height: 260px;
+	border: solid 1px #eee;
+	margin: 10px;
+	position: relative;
+	padding: 15px;
+	text-align: center;
+}
+
+.contacts .contact-link-block .area .close{
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	top: 10px;
+	right: 10px;
+	/*background: #ff0000;*/
+	cursor: pointer;
+	color: #aaa;
+	transform: rotate(45deg)
+}
+
+.contacts .contact-link-block .area .close:hover{
+	color: #555;
+}
+
+
+.contacts .contact-link-block .area .logo-min {
+	width: 350px;
+	height: 60px;
+	background: url(../images/logo.png) no-repeat #fff;
+	background-size: contain;
+	padding-left: 70px;
+	color: #636363;
+	font-size: 20px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.contacts .contact-link-block .area .logo-min span {
+	font-size: 34px;
+}
+
+.contacts .contact-link-block .area .info-min{
+	font-size: 22px;
+	line-height: 34px;
+}
+
+.contacts .contact-link-block .area .info-min .phone-min {
+}
+
+.contacts .contact-link-block .area .info-min .soc-min {
+	background: url(../images/vwt.png) no-repeat left center;
+	background-size: 60px;
+	padding-left: 70px;
+	
+}
+.contacts .contact-link-block .area .info-min .email-min {
+}
+.contacts .contact-link-block .area .info-min a{
+}
+
+/*** contacts end ***/
+
+
+
+/*** footer ***/
+
+.footer{
+	background: #222;
+}
+
+.footer .container{
+	padding: 20px 0;
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
+
+/*** footer end ***/
+
+
+
+/*********************************/
+
 
 
 /*** media all ***/
@@ -947,7 +943,7 @@ div{
 		width: 620px;
     	height: 305px;
 	}
-	.contacts .contact-map .contact-link-block{
+	.contacts .contact-link-block{
 		left: 38%;
 	}
 	.header-bottom .container .line-white{
@@ -1080,7 +1076,7 @@ div{
 		width: 570px;
 		margin: 0 auto 40px auto;
 	}
-	.contacts .contact-map .contact-link-block{
+	.contacts .contact-link-block{
 		display: block;
 		position: static;
 		top: 0;
@@ -1089,16 +1085,20 @@ div{
 		width: 100%;
 		height: auto;
 	}
-	.contacts .contact-map .contact-link-block .area{
+	.contacts .contact-link-block .area{
 		width: 98%;
 		height: auto;
 	}
-	.contacts .contact-map .contact-link-block .area .logo-min{
+	.contacts .contact-link-block .area .logo-min{
 		display: none;
 	}
 	.header-bottom .container .line-white{
 		display: none;
 	}
+	.contacts .contact-map{
+		height: 300px;
+	}
+	
 }
 
 /* Landscape phones and portrait tablets */
@@ -1302,9 +1302,9 @@ div{
 		margin: 0 auto 40px auto;
 	}
 	.contacts .contact-map{
-		min-height: 200px;
+		height: 200px;
 	}
-	.contacts .contact-map .contact-link-block{
+	.contacts .contact-link-block{
 		display: block;
 		position: static;
 		top: 0;
@@ -1313,11 +1313,11 @@ div{
 		width: 100%;
 		height: auto;
 	}
-	.contacts .contact-map .contact-link-block .area{
+	.contacts .contact-link-block .area{
 		width: 98%;
 		height: auto;
 	}
-	.contacts .contact-map .contact-link-block .area .logo-min{
+	.contacts .contact-link-block .area .logo-min{
 		display: none;
 	}
 }
@@ -1348,7 +1348,7 @@ div{
 		border-bottom: none;
 	}
 	.header-bottom .container .logo{
-		width: 350px;
+		width: 280px;
 		margin: 20px auto 20px auto;
 		font-size: 16px;
 	}
@@ -1468,7 +1468,7 @@ div{
 		font-size: 12px;
 	}
 	.model-tooling .container .why-is-worth .item{
-		width: 290px;
+		width: 280px;
 		margin-bottom: 50px;
 		margin-left: 0px; 
 	}
@@ -1536,9 +1536,9 @@ div{
 		margin: 0 auto 40px auto;
 	}
 	.contacts .contact-map{
-		min-height: 200px;
+		display: none;
 	}
-	.contacts .contact-map .contact-link-block{
+	.contacts .contact-link-block{
 		display: block;
 		position: static;
 		top: 0;
@@ -1547,11 +1547,11 @@ div{
 		width: 100%;
 		height: auto;
 	}
-	.contacts .contact-map .contact-link-block .area{
+	.contacts .contact-link-block .area{
 		width: 98%;
 		height: auto;
 	}
-	.contacts .contact-map .contact-link-block .area .logo-min{
+	.contacts .contact-link-block .area .logo-min{
 		display: none;
 	}
 }
