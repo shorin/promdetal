@@ -332,7 +332,7 @@ div{
 	border: solid 5px #fb3f05;
 	padding: 20px 30px 80px 20px;
 	margin-right: 80px;
-	height: 580px;
+	/*height: 580px;*/
 }
 
 .about .container .company-desc .area-left .title {
@@ -349,7 +349,7 @@ div{
 	width: 540px;
 	border-top: solid 5px #767676;
 	border-bottom: solid 5px #767676;
-	padding: 15px 0 30px 0;
+	padding: 40px 0 5px 0;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -371,7 +371,7 @@ div{
 	background: url(../images/detali.jpg) no-repeat #fff;
 	position: absolute;
 	right: 0;
-	bottom: -100px;
+	bottom: -115px;
 }
 
 /*** about end ***/
@@ -384,7 +384,7 @@ div{
 }
 .iron-casting .container {
 	display: flex;
-	
+	padding-top: 40px;
 }
 .iron-casting .container .img-left {
 	width: 480px;
@@ -444,9 +444,10 @@ div{
 }
 .model-tooling .container {
 	display: flex;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
+	padding-top: 50px;
 }
-.imodel-tooling .container .img-right {
+.model-tooling .container .img-right {
 	width: 480px;
 }
 
@@ -871,3 +872,187 @@ div{
 	width: 280px;
 	height: 280px;
 }
+
+
+/*** media all ***/
+
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container{
+		width: 960px;
+	}
+	.header-bottom .container{
+		display: block;
+	}
+	.about .container .blocks-area .item .item-title{
+		font-size: 16px;
+	}
+	.about .container .blocks-area .item .item-title.title-img1{
+		padding: 25px 10px 0 100px;
+	}
+	.about .container .blocks-area .item .item-title.title-img2{
+		padding: 15px 10px 0 120px;
+	}
+	.about .container .blocks-area .item .item-title.title-img3{
+		padding: 15px 10px 0 120px;
+	}
+	.about .company-desc .area-right .area-icons{
+		dispaly: block;
+		width: 330px;
+		padding: 15px 0 0px 0;
+	}
+	.about .area-right .area-icons .item{
+		margin-bottom: 20px;
+	}
+	.about .area-img{
+		display: block;
+		position: static;
+		width: 100%;
+		background-position: center center;
+		margin-top: 40px;
+	}
+	.about{
+		margin-bottom: 50px;
+	}
+	.model-tooling .container{
+		margin-bottom: 30px;
+	}
+	.model-tooling .container .why-is-worth{
+		width: 800px;
+		margin: 0 auto;
+	}
+	.model-tooling .container .why-is-worth .item .text-right{
+		width: 260px;
+	}
+	.model-tooling .container .why-is-worth .item{
+		width: 390px;
+		margin-bottom: 50px;
+		
+	}
+	.iron-casting .container{
+		margin-top: 40px;
+	}
+	.my-gallery .item:nth-child(1) img,
+	.my-gallery .item:nth-child(4) img,
+	.my-gallery .item:nth-child(5) img,
+	.my-gallery .item:nth-child(8) img{
+		width: 305px;
+    	height: 305px;
+	}
+	.my-gallery .item:nth-child(2) img,
+	.my-gallery .item:nth-child(3) img,
+	.my-gallery .item:nth-child(6) img,
+	.my-gallery .item:nth-child(7) img{
+		width: 620px;
+    	height: 305px;
+	}
+	.contacts .contact-map .contact-link-block{
+		left: 38%;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.container{
+		width: 740px;
+	}
+	.header-bottom .container{
+		display: block;
+	}
+	.header-bottom .container .menu-top{
+		height: 60px;
+	}
+	.header-bottom .container .menu-top ul li a{
+		font-size: 16px;
+		height: 60px;
+	}
+	.about{
+		margin-bottom: 40px;
+	}
+	.about .bg-top{
+		min-height: 380px;
+	}
+	.about .bg-top .container .description br{
+		/*font-size: 40px;|*/
+		display: none;
+	}
+	.about .container .blocks-area{
+		display: block;
+		margin-top: 60px;
+	}
+	.about .container .blocks-area .item{
+		margin: 20px auto;
+		width: 90%;
+	}
+	.about .container .blocks-area .item br {
+		display: none;
+	}
+	.about .container .blocks-area .item .item-img{
+		display: none;
+	}
+	.about .container .blocks-area .item:last-child{
+		margin: 20px auto;
+	}
+	.about .container .blocks-area .item .item-title.title-img1,
+	.about .container .blocks-area .item .item-title.title-img2,
+	.about .container .blocks-area .item .item-title.title-img3{
+		padding: 30px 10px 0 140px;
+	}
+	.about .container .company-desc{
+		display: block;
+	}
+	.about .container .company-desc .area-left{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.about .company-desc .area-right .area-icons{
+		width: 100%;
+		
+	}
+	.about .area-right .area-icons .item{
+		margin-left: 80px;
+	}
+	.about .area-img{
+		display: none;
+	}
+	.iron-casting .container .img-left{
+		display: none;
+	}
+	.model-tooling .container .img-right{
+		display: none;
+	}
+	.iron-casting .container .text-right{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.model-tooling .container .text-left{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.model-tooling .container .why-is-worth{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.model-tooling .container .why-is-worth .item .text-right{
+		width: 210px;
+	}
+	.model-tooling .container .why-is-worth .item{
+		width: 330px;
+		margin-bottom: 50px;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	body{
+		display: none;
+	}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+/*** media all end ***/ 
