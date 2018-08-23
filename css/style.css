@@ -720,7 +720,7 @@ div{
 
 
 .contacts .contact-map{
-	height: 450px;
+	min-height: 450px;
 }
 .contacts .contact-map .contact-link-block {
 	position: absolute;
@@ -1070,12 +1070,28 @@ div{
 		width: 90%;
 		margin: 0 auto;
 	}
+	.work .content-right .container .title{
+		text-align: center;
+	}
 	.work .contact-form .content-right .container{
 		width: 570px;
-		margin: 0 auto;
+		margin: 0 auto 40px auto;
 	}
 	.contacts .contact-map .contact-link-block{
-		left: 20%;
+		display: block;
+		position: static;
+		top: 0;
+		left: 0;
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+	.contacts .contact-map .contact-link-block .area{
+		width: 98%;
+		height: auto;
+	}
+	.contacts .contact-map .contact-link-block .area .logo-min{
+		display: none;
 	}
 }
 
