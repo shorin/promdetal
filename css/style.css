@@ -1348,9 +1348,12 @@ div{
 		border-bottom: none;
 	}
 	.header-bottom .container .logo{
-		width: 280px;
+		width: 250px;
 		margin: 20px auto 20px auto;
-		font-size: 16px;
+		font-size: 13px;
+	}
+	.header-bottom .container .logo span{
+		font-size: 30px;
 	}
 	.header-bottom .container .line-white{
 		display: none;
@@ -1387,7 +1390,7 @@ div{
 		margin-top: 20px;
 	}
 	.about .bg-top{
-		min-height: 270px;
+		min-height: 250px;
 	}
 	.about .bg-top .container .title{
 		font-size: 28px;
@@ -1468,16 +1471,16 @@ div{
 		font-size: 12px;
 	}
 	.model-tooling .container .why-is-worth .item{
-		width: 280px;
+		width: 260px;
 		margin-bottom: 50px;
 		margin-left: 0px; 
 	}
 	.work .container{
-		width: 280px;
+		width: 250px;
 		margin: 0 auto;
 	}
 	.work .bg-top .title{
-		width: 270px;
+		width: 260px;
 	}
 	.work .container .tabs .tabs-title{
 		font-size: 24px;
@@ -1495,13 +1498,13 @@ div{
 	.my-gallery .item:nth-child(6) img,
 	.my-gallery .item:nth-child(7) img,
 	.my-gallery .item:nth-child(8) img{
-		width: 280px;
+		width: 240px;
 		height: 100px;
 	}
 	
 	.work .container .show-more-vk a{
 		font-size: 16px;
-		width: 240px;
+		width: 230px;
 	}
 	
 	.work .contact-form .img-left{
@@ -1532,7 +1535,7 @@ div{
 		font-size: 11px;
 	}
 	.work .contact-form .content-right .container{
-		width: 280px;
+		width: 250px;
 		margin: 0 auto 40px auto;
 	}
 	.contacts .contact-map{
@@ -1548,7 +1551,7 @@ div{
 		height: auto;
 	}
 	.contacts .contact-link-block .area{
-		width: 98%;
+		width: 95%;
 		height: auto;
 	}
 	.contacts .contact-link-block .area .logo-min{
