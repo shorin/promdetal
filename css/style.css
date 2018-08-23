@@ -1240,6 +1240,7 @@ div{
 	.model-tooling .container .why-is-worth .item{
 		width: 330px;
 		margin-bottom: 50px;
+		margin-left: 70px; 
 	}
 	.work .container{
 		width: 400px;
@@ -1297,8 +1298,11 @@ div{
 		font-size: 11px;
 	}
 	.work .contact-form .content-right .container{
-		width: 460px;
+		width: 440px;
 		margin: 0 auto 40px auto;
+	}
+	.contacts .contact-map{
+		min-height: 200px;
 	}
 	.contacts .contact-map .contact-link-block{
 		display: block;
@@ -1319,10 +1323,238 @@ div{
 }
 
 /* Landscape phones and smaller */
-/*
+
 @media (max-width: 480px) {
+	.container{
+		width: 300px;
+	}
+	.header-top .container .info{
+		text-align: left;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+	.header-top .container .info .phone{
+		display: block;
+	}
+	.header-top .container .info .soc{
+		display: block;
+	}
+	.header-top .container .info .email{
+		display: block;
+		padding-right: 25px;
+	}
+	.header-bottom{
+		border-bottom: none;
+	}
+	.header-bottom .container .logo{
+		width: 350px;
+		margin: 20px auto 20px auto;
+		font-size: 16px;
+	}
+	.header-bottom .container .line-white{
+		display: none;
+	}
+	.header-bottom .container{
+		display: block;
+	}
+	.header-bottom .container .menu-top{
+		height: auto;
+		text-align: right;
+		border-top: solid 5px #fb3f05;
+		padding-top: 10px;
+	}
+	.header-bottom .container .menu-top ul{
+		display: block;
+	}
+	.header-bottom .container .menu-top ul li{
+		width: 100%;
+		display: block;
+	}
+	.header-bottom .container .menu-top ul li.selected a{
+		border-bottom:  solid 5px #222;
+	}
+	.header-bottom .container .menu-top ul li.selected:hover a{
+		border-bottom:  solid 5px #fb3f05;
+	}
+	.header-bottom .container .menu-top ul li a{
+		font-size: 16px;
+		height: 30px;
+		width: 100%;
+	}
+	.about{
+		margin-bottom: 40px;
+		margin-top: 20px;
+	}
+	.about .bg-top{
+		min-height: 270px;
+	}
+	.about .bg-top .container .title{
+		font-size: 28px;
+	}
+	.about .bg-top .container .description{
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.about .bg-top .container .description br{
+		/*font-size: 40px;|*/
+		display: none;
+	}
+	.about .container .blocks-area{
+		display: block;
+		margin-top: 60px;
+	}
+	.about .container .blocks-area .item{
+		margin: 20px auto;
+		width: 90%;
+	}
+	.about .container .blocks-area .item br {
+		display: none;
+	}
+	.about .container .blocks-area .item .item-img{
+		display: none;
+	}
+	.about .container .blocks-area .item:last-child{
+		margin: 20px auto;
+	}
+	.about .container .blocks-area .item .item-title.title-img1,
+	.about .container .blocks-area .item .item-title.title-img2,
+	.about .container .blocks-area .item .item-title.title-img3{
+		padding: 20px 10px 0 40px;
+		background: #fb3f05;
+	}
 	
+	.about .container .blocks-area .item .item-title.title-img3{
+		padding: 10px 10px 0 40px;
+	}
+	
+	.about .container .company-desc{
+		display: block;
+	}
+	.about .container .company-desc .area-left{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.about .company-desc .area-right .area-icons{
+		width: 100%;
+		
+	}
+	.about .area-right .area-icons .item{
+		margin-left: 10px;
+	}
+	.about .area-img{
+		display: none;
+	}
+	.iron-casting .container .img-left{
+		display: none;
+	}
+	.model-tooling .container .img-right{
+		display: none;
+	}
+	.iron-casting .container .text-right{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.model-tooling .container .text-left{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.model-tooling .container .why-is-worth{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.model-tooling .container .why-is-worth .item .text-right{
+		width: 160px;
+		font-size: 12px;
+	}
+	.model-tooling .container .why-is-worth .item{
+		width: 290px;
+		margin-bottom: 50px;
+		margin-left: 0px; 
+	}
+	.work .container{
+		width: 280px;
+		margin: 0 auto;
+	}
+	.work .bg-top .title{
+		width: 270px;
+	}
+	.work .container .tabs .tabs-title{
+		font-size: 24px;
+		color: #fff;
+	}
+	.work .tabs .tabs-title a{
+		font-size: 22px;
+		padding: 10px 0px;
+	}
+	.my-gallery .item:nth-child(1) img,
+	.my-gallery .item:nth-child(2) img,
+	.my-gallery .item:nth-child(3) img,
+	.my-gallery .item:nth-child(4) img,
+	.my-gallery .item:nth-child(5) img,
+	.my-gallery .item:nth-child(6) img,
+	.my-gallery .item:nth-child(7) img,
+	.my-gallery .item:nth-child(8) img{
+		width: 280px;
+		height: 100px;
+	}
+	
+	.work .container .show-more-vk a{
+		font-size: 16px;
+		width: 240px;
+	}
+	
+	.work .contact-form .img-left{
+		display: none;
+	}
+	.work .contact-form .content-right{
+		padding: 0;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.work .content-right .container .title{
+		text-align: center;
+	}
+	.work .content-right .container .desctiption{
+		font-size: 14px;
+	}
+	.work .container .form-area form input{
+		width: 95%;
+	}
+	.work .container .form-area form input:nth-child(1){
+		width: 95%;
+		margin-bottom: 20px;
+	}
+	.work .container .form-area form textarea{
+		width: 95%;
+	}
+	.work .container .form-area form .bottom-area span.desc{
+		font-size: 11px;
+	}
+	.work .contact-form .content-right .container{
+		width: 280px;
+		margin: 0 auto 40px auto;
+	}
+	.contacts .contact-map{
+		min-height: 200px;
+	}
+	.contacts .contact-map .contact-link-block{
+		display: block;
+		position: static;
+		top: 0;
+		left: 0;
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+	.contacts .contact-map .contact-link-block .area{
+		width: 98%;
+		height: auto;
+	}
+	.contacts .contact-map .contact-link-block .area .logo-min{
+		display: none;
+	}
 }
-*/
+
 
 /*** media all end ***/ 
