@@ -950,6 +950,9 @@ div{
 	.contacts .contact-map .contact-link-block{
 		left: 38%;
 	}
+	.header-bottom .container .line-white{
+		display: none;
+	}
 }
 
 /* Portrait tablets and small desktops */
@@ -1093,18 +1096,217 @@ div{
 	.contacts .contact-map .contact-link-block .area .logo-min{
 		display: none;
 	}
+	.header-bottom .container .line-white{
+		display: none;
+	}
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-	body{
+	.container{
+		width: 465px;
+	}
+	.header-top .container .info{
+		text-align: left;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+	.header-top .container .info .phone{
+		display: block;
+	}
+	.header-top .container .info .soc{
+		display: block;
+	}
+	.header-top .container .info .email{
+		display: block;
+		padding-right: 25px;
+	}
+	.header-bottom{
+		border-bottom: none;
+	}
+	.header-bottom .container .logo{
+		width: 350px;
+		margin: 20px auto 20px auto;
+	}
+	.header-bottom .container .line-white{
+		display: none;
+	}
+	.header-bottom .container{
+		display: block;
+	}
+	.header-bottom .container .menu-top{
+		height: auto;
+		text-align: right;
+		border-top: solid 5px #fb3f05;
+		padding-top: 10px;
+	}
+	.header-bottom .container .menu-top ul{
+		display: block;
+	}
+	.header-bottom .container .menu-top ul li{
+		width: 100%;
+		display: block;
+	}
+	.header-bottom .container .menu-top ul li.selected a{
+		border-bottom:  solid 5px #222;
+	}
+	.header-bottom .container .menu-top ul li.selected:hover a{
+		border-bottom:  solid 5px #fb3f05;
+	}
+	.header-bottom .container .menu-top ul li a{
+		font-size: 16px;
+		height: 30px;
+		width: 100%;
+	}
+	.about{
+		margin-bottom: 40px;
+		margin-top: 20px;
+	}
+	.about .bg-top{
+		min-height: 380px;
+	}
+	.about .bg-top .container .title{
+		font-size: 40px;
+	}
+	.about .bg-top .container .description{
+		font-size: 38px;
+		line-height: 50px;
+	}
+	.about .bg-top .container .description br{
+		/*font-size: 40px;|*/
+		display: none;
+	}
+	.about .container .blocks-area{
+		display: block;
+		margin-top: 60px;
+	}
+	.about .container .blocks-area .item{
+		margin: 20px auto;
+		width: 90%;
+	}
+	.about .container .blocks-area .item br {
+		display: none;
+	}
+	.about .container .blocks-area .item .item-img{
+		display: none;
+	}
+	.about .container .blocks-area .item:last-child{
+		margin: 20px auto;
+	}
+	.about .container .blocks-area .item .item-title.title-img1,
+	.about .container .blocks-area .item .item-title.title-img2,
+	.about .container .blocks-area .item .item-title.title-img3{
+		padding: 20px 10px 0 140px;
+	}
+	.about .container .company-desc{
+		display: block;
+	}
+	.about .container .company-desc .area-left{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.about .company-desc .area-right .area-icons{
+		width: 100%;
+		
+	}
+	.about .area-right .area-icons .item{
+		margin-left: 80px;
+	}
+	.about .area-img{
+		display: none;
+	}
+	.iron-casting .container .img-left{
+		display: none;
+	}
+	.model-tooling .container .img-right{
+		display: none;
+	}
+	.iron-casting .container .text-right{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.model-tooling .container .text-left{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.model-tooling .container .why-is-worth{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.model-tooling .container .why-is-worth .item .text-right{
+		width: 210px;
+	}
+	.model-tooling .container .why-is-worth .item{
+		width: 330px;
+		margin-bottom: 50px;
+	}
+	.work .container{
+		width: 400px;
+		margin: 0 auto;
+	}
+	.work .container .tabs .tabs-title{
+		font-size: 24px;
+		color: #fff;
+	}
+	.work .tabs .tabs-title a{
+		font-size: 22px;
+	}
+	.my-gallery .item:nth-child(1) img,
+	.my-gallery .item:nth-child(2) img,
+	.my-gallery .item:nth-child(3) img,
+	.my-gallery .item:nth-child(4) img,
+	.my-gallery .item:nth-child(5) img,
+	.my-gallery .item:nth-child(6) img,
+	.my-gallery .item:nth-child(7) img,
+	.my-gallery .item:nth-child(8) img{
+		width: 400px;
+		height: 200px;
+	}
+	
+	.work .container .show-more-vk a{
+		font-size: 20px;
+		width: 380px;
+	}
+	
+	.work .contact-form .img-left{
+		display: none;
+	}
+	.work .contact-form .content-right{
+		padding: 0;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.work .content-right .container .title{
+		text-align: center;
+	}
+	.work .contact-form .content-right .container{
+		width: 570px;
+		margin: 0 auto 40px auto;
+	}
+	.contacts .contact-map .contact-link-block{
+		display: block;
+		position: static;
+		top: 0;
+		left: 0;
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+	.contacts .contact-map .contact-link-block .area{
+		width: 98%;
+		height: auto;
+	}
+	.contacts .contact-map .contact-link-block .area .logo-min{
 		display: none;
 	}
 }
 
 /* Landscape phones and smaller */
+/*
 @media (max-width: 480px) {
-
+	
 }
+*/
 
 /*** media all end ***/ 
